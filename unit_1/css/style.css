@@ -1,13 +1,27 @@
 body {
 	color: #FFF;
 	font-family: Helvetica, sans-serif;
-	font-size: 60px;
+	font-size: 30px;
 	text-align: center;
 	background-size: cover;
 	background: url("http://i.imgur.com/k1XZH9v.jpg");
 	background-size: cover;
 	background-color: #d1d1e0;
 }
-p{
-	font-size: 25px;
+input{
+    width:400px;
+    border:1px solid white;
+    border-radius:10px;
+    padding:20px;
+}
+button{
+    background-color:#fff;
+    border:1px solid white;
+    border-radius:10px;
+    padding:20px;
+    font-family: "Hand Typewriter", Courier, monospace;
+}
+a {
+	color: #fff;
+	font-size: 15px;
 }
