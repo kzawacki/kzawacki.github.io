@@ -1,7 +1,13 @@
 body {
+	color: #FFF;
+	font-family: Helvetica, sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-size: cover;
+	background: url("http://i.imgur.com/k1XZH9v.jpg");
+	background-size: cover;
 	background-color: #d1d1e0;
 }
-
-h1, p {
-	color: #2d2d86;
+p{
+	font-size: 25px;
 }
