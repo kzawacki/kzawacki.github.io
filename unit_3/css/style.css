@@ -1,0 +1,41 @@
+body {
+	color: #FFF;
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	background-size: cover;
+	background: url("http://i.imgur.com/k1XZH9v.jpg");
+	background-size: cover;
+	background-color: #d1d1e0;
+}
+input{
+    width:400px;
+    border:1px solid white;
+    border-radius:10px;
+    padding:20px;
+    text-align: center;
+}
+button{
+    background-color:#fff;
+    border:1px solid white;
+    border-radius:10px;
+    padding:20px;
+    font-family: "Hand Typewriter", Courier, monospace;
+}
+a {
+	color: #fff;
+	font-size: 15px;
+}
+
+.boxed {
+	color: #fff;
+	font-size: 15px;
+	background-color: #DF0101;
+	padding: 30px;
+	text-align: center;
+	font-weight: normal;
+	margin-right: 500px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
