@@ -1,7 +1,7 @@
 body {
 	color: #FFF;
-	font-family: Helvetica, sans-serif;
-	font-size: 30px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
 	text-align: center;
 	font-weight: bold;
 	background-size: cover;
@@ -17,22 +17,25 @@ input{
     text-align: center;
 }
 button{
-    background-color:#fff;
+    background-color: #fff;
     border:1px solid white;
     border-radius:10px;
     padding:20px;
-    font-family: "Hand Typewriter", Courier, monospace;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
 }
 a {
 	color: #fff;
 	font-size: 15px;
-}
+
 
 .boxed {
 	color: #fff;
 	font-size: 15px;
 	background-color: #DF0101;
 	padding: 30px;
+	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 	font-weight: normal;
 	margin-right: 500px;
