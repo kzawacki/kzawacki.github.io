@@ -8,6 +8,14 @@
 	text-align: center;
 }
 
+/*#boxed {
+	font-family: 'Lora', serif;
+	font-color: #fff;
+	font-weight: normal;
+	font-size: 30px;
+	max-width: 500px;	
+	text-align: center;
+}*/
 
 body {
 	color: #FFF;
@@ -18,6 +26,10 @@ body {
 	background: url("http://i.imgur.com/k1XZH9v.jpg");
 	background-size: cover;
 	background-color: #000;
+}
+
+h2 {
+	color: #DF0101;
 }
 
 input {
@@ -41,18 +53,12 @@ button {
 a {
 	color: #fff;
 	font-size: .5em;
+	text-decoration: none;
 }
 
-/*.boxed {
-	font-family: 'Lora', serif;
-	font-color: #fff;
-	font-size: .5em;
-	background-color: #DF0101;
-	padding: 1em;
-	font-weight: normal;
-	max-width: 500px;	
-	text-align: center;
-}*/
+a:hover {
+	color: #DF0101;
+}
 
 .cafe1 {
 	float: left;
@@ -63,6 +69,31 @@ a {
     margin-left: 1.5%;
     background-color: #fff;
     border-radius:10px;
+    display: inline-block;
+}
+
+.cafe2 {
+	float: left;
+	width: 30%;
+	margin-top: 0px;
+    margin-right: 1.5%;
+    margin-bottom: 2.2em;
+    margin-left: 1.5%;
+    background-color: #fff;
+    border-radius:10px;
+    display: inline-block;
+}
+
+.cafe3 {
+	float: left;
+	width: 30%;
+	margin-top: 0px;
+    margin-right: 1.5%;
+    margin-bottom: 2.2em;
+    margin-left: 1.5%;
+    background-color: #fff;
+    border-radius:10px;
+    display: inline-block;
 }
 
 h4 {
