@@ -13,7 +13,7 @@
 body {
 	color: #FFF;
 	font-family: 'Lora', sans-serif;
-	font-size: 2em;
+	font-size: .75em;
 	text-align: center;
 	font-weight: normal;
 	background: url("http://i.imgur.com/k1XZH9v.jpg");
@@ -37,7 +37,7 @@ header {
 
 #slogan {
 	font-family: 'Lobster', cursive;
-	font-size: 2em;
+	font-size: 1em;
 	margin: .5em;
 	text-align: center;
 }
@@ -95,7 +95,7 @@ form {
 	margin: 15px 15px 40px 15px;
 }
 
-.cafe {
+/*.cafe {
 	width: 30%;
 	float: left;
 	margin-top: 0px;
@@ -124,14 +124,14 @@ form {
 	color: #DF0101;
 	font-size: 1.5em;
 }
-
+*/
 footer {
 	text-align: center;
 /*	padding: 1em 0;*/
 	font-size: .5em;
 	background-color: #FF957E;
     border: 1px black solid;
-    padding: 20px;
+    padding: 5px;
 }
 
 section {
@@ -140,6 +140,33 @@ section {
     padding: 20px;
 }
 
-#three_column {
-	background-color: #;
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
