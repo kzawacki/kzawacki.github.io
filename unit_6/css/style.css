@@ -13,7 +13,7 @@
 body {
 	color: #FFF;
 	font-family: 'Lora', sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 	text-align: center;
 	font-weight: normal;
 	background: url("http://i.imgur.com/k1XZH9v.jpg");
@@ -37,7 +37,7 @@ header {
 
 #slogan {
 	font-family: 'Lobster', cursive;
-	font-size: 2em;
+	font-size: 3em;
 	margin: .5em;
 	text-align: center;
 }
@@ -46,6 +46,7 @@ header {
 	background-color: #E8C66A;
 	 border: 1px black solid;
     padding: 20px;
+    font-size: 1.5em;
 }
 
 nav {
@@ -55,6 +56,7 @@ nav {
 
 h2 {
 	color: #DF0101;
+	font-size: 2em;
 	border: 4px double white;
 }
 
@@ -128,7 +130,7 @@ form {
 footer {
 	text-align: center;
 /*	padding: 1em 0;*/
-	font-size: .5em;
+	font-size: 1em;
 	background-color: #FF957E;
     border: 1px black solid;
     padding: 20px;
