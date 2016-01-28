@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/*#boxed {
+	font-family: 'Lora', serif;
+	font-color: #fff;
+	font-weight: normal;
+	font-size: 30px;
+	max-width: 500px;	
+	text-align: center;
+}*/
+
+body {
+	color: #FFF;
+	font-family: 'Lora', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	background: url("http://i.imgur.com/k1XZH9v.jpg");
+	background-size: 100%;
+	background-color: #000;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#logo {
+	float: left;
+	width: 20%;
+	height: 10%;
+	padding-right: 100%;
+	margin-bottom: 15px;
+}
+
+#slogan {
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	margin: .5em;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	margin: 1em auto;
+	font-size: 2em;
+}
+
+h2 {
+	color: #DF0101;
+	font-size: 1.5em;
+	border: .2em double white;
+}
+
+input {
+    width: 40%;
+    border: 1px solid white;
+    border-radius:1em;
+    padding:1em;
+    text-align: center;
+}
+
+button {
+    background-color: #fff;
+    border:1px solid white;
+    border-radius:1em;
+    padding:1em;
+    font-size:.5em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+
+a {
+	color: #fff;
+	font-size: .5em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #DF0101;
+	text-decoration: none;
+}
+
+nav a {
+	text-decoration: underline;
+}
+
+form {
+	margin: 15px 15px 40px 15px;
+}
+
+.cafe {
+	width: 30%;
+	float: left;
+	margin-top: 0px;
+    margin-right: 1.5%;
+    margin-bottom: 2.2em;
+    margin-left: 1.5%;
+    background-color: #fff;
+    border-radius:10px;
+    display: inline-block;
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.cafe img {
+	width: 300px;
+	height: 300px;
+}
+
+.cafe a:hover {
+	color:#003399;
+}
+
+.cafe h4 {
+	margin: 1em;
+	color: #DF0101;
+	font-size: 1.5em;
+}
+
+footer {
+	text-align: center;
+/*	padding: 1em 0;*/
+	font-size: 1em;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+/*
+#three_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+*/
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
