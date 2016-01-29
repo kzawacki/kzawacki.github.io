@@ -11,22 +11,16 @@
 }*/
 
 body {
-	color: #FFF;
+	font-size: 16px;
 	font-family: 'Lora', sans-serif;
 	text-align: center;
 	font-weight: normal;
 	background: url("http://i.imgur.com/k1XZH9v.jpg");
 	background-size: 100%;
-	background-color: #000;
+	background-color: #FFF;
 }
 
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#logo {
+header img {
 	float: left;
 	width: 20%;
 	height: 10%;
@@ -34,8 +28,10 @@ header {
 	margin-bottom: 15px;
 }
 
-#slogan {
+
+header p {
 	font-family: 'Lobster', cursive;
+	color: #FFF;
 	font-size: 3em;
 	margin: .5em;
 	text-align: center;
@@ -48,9 +44,8 @@ nav {
 }
 
 h2 {
-	color: #DF0101;
 	font-size: 1.5em;
-	border: .2em double white;
+	color:#DF0101;
 }
 
 input {
@@ -87,76 +82,51 @@ nav a {
 }
 
 form {
-	margin: 15px 15px 40px 15px;
+	margin: 1em 1em 2em 1em;
+	font-size: 1.5em;
+}
+
+section {
+	background-color: #fff;
+
+}
+
+section h2 {
+	padding-top: 2em;
+}
+
+footer {
+	text-align: center;
+	font-size: 1em;
+	color: #DF0101;
 }
 
 .cafe {
 	width: 30%;
 	float: left;
+	font-size: 1.5em;
 	margin-top: 0px;
     margin-right: 1.5%;
     margin-bottom: 2.2em;
     margin-left: 1.5%;
-    background-color: #fff;
-    border-radius:10px;
-    display: inline-block;
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 .cafe img {
 	width: 300px;
 	height: 300px;
+	background-color: #FFF;
 }
 
 .cafe a:hover {
-	color:#003399;
+	color:#DF0101;
 }
 
 .cafe h4 {
 	margin: 1em;
-	color: #DF0101;
+	color:#DF0101;
 	font-size: 1.5em;
 }
 
-footer {
-	text-align: center;
-/*	padding: 1em 0;*/
-	font-size: 1em;
-	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-section {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
-}
-/*
-#three_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
-}
-
-#right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
-}
-*/
 .clearfix:after {
     clear: both;
     content: ".";
