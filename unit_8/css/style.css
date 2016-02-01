@@ -101,6 +101,7 @@ footer {
 	color: #DF0101;
 }
 
+
 .cafe {
 	width: 30%;
 	float: left;
@@ -112,8 +113,7 @@ footer {
 }
 
 .cafe img {
-	width: 300px;
-	height: 300px;
+	width: 100%;
 	background-color: #FFF;
 }
 
@@ -125,6 +125,29 @@ footer {
 	margin: 1em;
 	color:#DF0101;
 	font-size: 1.5em;
+}
+
+@media screen and (max-width: 970px) {
+	a {
+		color:#DF0101;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.cafe {
+		display: block;
+		width: 80%;
+		outline-width: .5em;
+/*		padding: .5em;
+		height: 2em;
+		line-height: 2em;
+		float: none;*/
+	}
+	.cafe img {
+		width: 230px;
+		height: 50px;
+		padding: .5em;
+	}
 }
 
 .clearfix:after {
