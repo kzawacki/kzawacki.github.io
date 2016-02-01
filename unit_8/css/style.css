@@ -135,13 +135,13 @@ footer {
 
 @media screen and (max-width: 480px) {
 	.cafe {
-		display: block;
 		width: 80%;
 		outline-width: .5em;
-/*		padding: .5em;
+		padding: .5em;
 		height: 2em;
 		line-height: 2em;
-		float: none;*/
+		float: none;
+		text-align: center;
 	}
 	.cafe img {
 		width: 230px;
@@ -151,6 +151,7 @@ footer {
 
 	body {
 		background-size: 480px;
+		text-align: center;
 	}
 }
 
