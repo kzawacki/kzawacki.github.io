@@ -142,6 +142,7 @@ footer {
 		line-height: 2em;
 		float: none;
 		text-align: center;
+		overflow: hidden;
 	}
 	.cafe img {
 		width: 230px;
@@ -149,7 +150,7 @@ footer {
 		padding: .5em;
 	}
 
-	body {
+	.wrapper {
 		background-size: 480px;
 		text-align: center;
 	}
